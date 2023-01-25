@@ -16,6 +16,13 @@
             </a>
           </li>
 
+          <li class="{% if 'index' in segment %} active {% endif %}">
+            <a href="/register/">
+              <i class="tim-icons icon-chart-pie-36"></i>
+              <p>Criar Usuário</p>
+            </a>
+          </li>
+
           <li>
             <a href="{% url 'logout' %}" >
               <i class="tim-icons icon-button-power"></i>
